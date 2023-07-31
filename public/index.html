@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weather App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="form-group">
+      <label for="zip">Enter Zip Code:</label>
+      <input type="text" id="zip" placeholder="Enter zip code" />
+    </div>
+    <div class="form-group">
+      <label for="feelings">How do you feel today?</label>
+      <input type="text" id="feelings" placeholder="Enter your response" />
+    </div>
+    <button id="generate">Get Weather Data</button>
+    <div class="weather-info">
+      <h2>Weather Information</h2>
+      <p id="date">Date: </p>
+      <p id="temp">Temperature: </p>
+      <p id="content">User Response: </p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
